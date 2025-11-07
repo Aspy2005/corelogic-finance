@@ -1,5 +1,3 @@
-# pyproject.toml
-
 [build-system]
 # Especifica el backend de construcción del paquete (estándar moderno)
 requires = ["setuptools>=61.0.0", "wheel"]
@@ -9,7 +7,7 @@ build-backend = "setuptools.build_meta"
 name = "corelogic-finance"
 version = "1.0.0"
 authors = [
-  { name="CoreLogic Dev Team", email="dev@corelogic.com" },
+  { name="Luis Alejandro Martinez Marin", email="lalejandro.2005martinez@gmail.com" },
 ]
 description = "Una librería robusta y precisa para cálculos financieros y de negocios, basada en principios de POO y Test-Driven Development."
 readme = "README.md"
@@ -32,8 +30,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/tu-usuario/corelogic-finance"
-"Bug Tracker" = "https://github.com/tu-usuario/corelogic-finance/issues"
+"Homepage" = "https://github.com/Aspy2005/corelogic-finance"
+"Bug Tracker" = "https://github.com/Aspy2005/corelogic-finance/issues"
 
 [tool.setuptools.packages.find]
 # Indica a setuptools que encuentre la carpeta 'corelogic'

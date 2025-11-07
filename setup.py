@@ -1,5 +1,3 @@
-# setup.py
-
 from setuptools import setup, find_packages
 
 setup(
@@ -8,12 +6,10 @@ setup(
     description='Una librería robusta y precisa para cálculos financieros y de negocios.',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
-    author='CoreLogic Dev Team',
-    author_email='dev@corelogic.com',
-    url='https://github.com/tu-usuario/corelogic-finance',
-    # Busca automáticamente la carpeta 'corelogic'
+    author='Luis Alejandro Martinez Marin',
+    author_email='lalejandro.2005martinez@gmail.com',
+    url='https://github.com/Aspy2005/corelogic-finance',
     packages=find_packages(),
-    # Dependencias del proyecto (deben coincidir con pyproject.toml)
     install_requires=[
         'numpy',
         'numpy-financial',
