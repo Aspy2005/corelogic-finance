@@ -1,0 +1,5 @@
+# Dependencias de producción requeridas por los módulos de CoreLogic
+
+numpy
+numpy-financial
+pandas

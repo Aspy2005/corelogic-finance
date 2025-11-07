@@ -1,0 +1,7 @@
+# requirements-dev.txt
+# Dependencias para el desarrollo, testing y building del paquete.
+
+[cite_start]pytest       # Requerido para la Confiabilidad mediante Pruebas [cite: 28]
+[cite_start]pytest-cov   # Requerido para medir la Cobertura de Código [cite: 30]
+build        # Herramienta para generar el paquete de distribución (.whl y .tar.gz)
+twine        # Herramienta para subir el paquete a PyPI

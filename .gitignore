@@ -1,0 +1,23 @@
+# Archivos y carpetas ignoradas para la arquitectura CoreLogic
+# Ignora archivos de caché y builds locales
+
+# Entornos Virtuales
+venv/
+.env
+
+# Archivos de Python generados
+__pycache__/
+*.pyc
+
+# Archivos de Pytest/Cobertura/Build
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribución
+dist/
+build/
+*.egg-info/
+
+# Archivos del editor (VS Code)
+.vscode/
